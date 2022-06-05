@@ -1,0 +1,32 @@
+meeting 1 - 08th Jan
+which models to use? for forecasting? for classification? SMA, Exponential Smoothing, NN, ARIMA, Regression
+How much data to use, e.g. for simple linear regression?
+what time unit to use?
+which packets to look for tcp? udp? dns?
+what is the forecasted volume unit? packets? frame length?
+forecasting or classification?
+Data shuffling?
+
+
+
+meeting 2
+prediction is time series and classification is not?
+how to interpret non-number features? ip addresses? protocols?
+which ports are we interested in? src? dst?
+which protocols are important? tcp.seq? tcp.stream? tcp.window_size? ip.ttl? 
+
+
+last meeting
+using 3 time series prediction methods. using 3/4 ML models
+making a range of hyperparameters and complexity of models. and plotting results with extreme and intermediate values
+performance metrics and confidence values
+classification with one data trace for protocol values. using time delta, frame len, ip addresses
+
+
+thesis pointers
+trial and error, parameter-space search, optimization through cross-validation
+memory processing and training time for graphics card
+Gaussian mixture models for softmax classification
+inference, loss, performance metric, optimization, activation, initialization
+true error rate of classifiers (5/6) before modeling
+box plots of mape of all regressors and classifiers

@@ -1,0 +1,23 @@
+line by line in list data loading = 0.84 - total time = 10.8789
+length = 6871992
+tt = 6871992
+complete file: data loading = 9.09/9.08 - max mem = 2.88 - total time  = 91.686792/96.346
+using split instead of string parsing, complete file: data loading = 12.52 - max mem = 2.2 - total time  = 100.651462
+length = 64417152
+tt     = 64417152
+ts_f   = 56
+
+line by line to array data loading = 1.27 - total time = 11.1436
+length = 6871992
+tt = 6871992
+A = 1709332
+b = 123065088
+
+all lines with list only data loading = 1.6 - total time = 9.489463
+length = 7333440
+tt = 6837008
+complete file: data loading = 15.1142/20.4395 - max mem = 3.6 - total time  = 118.7972/98/107.446113
+after deleting data of 335 MB, complete file: data loading = 17.9561 - max mem = 2.6 - total time  = 102.256
+length = 68742480
+tt     = 62508472
+ts_f   = 56
